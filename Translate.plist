@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>환경설정</key>
+	<dict>
+		<key>KOR</key>
+		<string>환경설정</string>
+		<key>ENG</key>
+		<string>Setting</string>
+		<key>CHN</key>
+		<string>设置</string>
+	</dict>
+	<key>프로그램 정보</key>
+	<dict>
+		<key>KOR</key>
+		<string>SpeakAgain VER 1.032</string>
+		<key>ENG</key>
+		<string>SpeakAgain VER 1.032</string>
+		<key>CHN</key>
+		<string>SpeakAgain VER 1.032</string>
+	</dict>
+	<key>정보</key>
+	<dict>
+		<key>KOR</key>
+		<string>정보</string>
+		<key>ENG</key>
+		<string>Information</string>
+		<key>CHN</key>
+		<string>信息</string>
+	</dict>
+	<key>자동반복</key>
+	<dict>
+		<key>KOR</key>
+		<string>자동반복</string>
+		<key>ENG</key>
+		<string>Smart Repeat</string>
+		<key>CHN</key>
+		<string>智能重复</string>
+	</dict>
+	<key>자막지원</key>
+	<dict>
+		<key>KOR</key>
+		<string>자막지원</string>
+		<key>ENG</key>
+		<string>Subtitle</string>
+		<key>CHN</key>
+		<string>字幕</string>
+	</dict>
+	<key>자막 (SRT) 지원</key>
+	<dict>
+		<key>KOR</key>
+		<string>자막(.SRT) 지원</string>
+		<key>ENG</key>
+		<string>Subtitle support (.SRT File)</string>
+		<key>CHN</key>
+		<string>字幕支持 (.SRT File)</string>
+	</dict>
+	<key>제스쳐</key>
+	<dict>
+		<key>KOR</key>
+		<string>제스쳐</string>
+		<key>ENG</key>
+		<string>Guesture</string>
+		<key>CHN</key>
+		<string>手势</string>
+	</dict>
+	<key>다운로드 오류</key>
+	<dict>
+		<key>KOR</key>
+		<string>다운로드 오류</string>
+		<key>ENG</key>
+		<string>Download error</string>
+		<key>CHN</key>
+		<string>加载失败</string>
+	</dict>
+	<key>아직 준비되지 않은 파일일 수 있습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>아직 준비되지 않은 파일일 수 있습니다</string>
+		<key>ENG</key>
+		<string>The movie clip might not be prepared</string>
+		<key>CHN</key>
+		<string>影片剪辑无法使用</string>
+	</dict>
+	<key>다른 파일 이용을 권장합니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>다른 파일 이용을 권장합니다</string>
+		<key>ENG</key>
+		<string>You can download other movies</string>
+		<key>CHN</key>
+		<string>请下载其他影片</string>
+	</dict>
+	<key>검색결과</key>
+	<dict>
+		<key>KOR</key>
+		<string>검색결과</string>
+		<key>ENG</key>
+		<string>Search results</string>
+		<key>CHN</key>
+		<string>搜索结果</string>
+	</dict>
+	<key>정상 무비파일이 아닙니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>정상 무비파일이 아닙니다</string>
+		<key>ENG</key>
+		<string>This is a wrong media file</string>
+		<key>CHN</key>
+		<string>错误影片文件</string>
+	</dict>
+	<key>검색결과가 존재하지 않습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>검색결과가 존재하지 않습니다</string>
+		<key>ENG</key>
+		<string>No match was found for the keyword</string>
+		<key>CHN</key>
+		<string>暂未搜到您要的结果</string>
+	</dict>
+	<key>싱글 탭</key>
+	<dict>
+		<key>KOR</key>
+		<string>싱글 탭</string>
+		<key>ENG</key>
+		<string>Single Tap</string>
+		<key>CHN</key>
+		<string>单击</string>
+	</dict>
+	<key>더블 탭</key>
+	<dict>
+		<key>KOR</key>
+		<string>더블 탭</string>
+		<key>ENG</key>
+		<string>Double Tap</string>
+		<key>CHN</key>
+		<string>双击</string>
+	</dict>
+	<key>왼쪽으로 밀기</key>
+	<dict>
+		<key>KOR</key>
+		<string>왼쪽으로 밀기</string>
+		<key>ENG</key>
+		<string>Swipe to left</string>
+		<key>CHN</key>
+		<string>向左划</string>
+	</dict>
+	<key>오른쪽으로 밀기</key>
+	<dict>
+		<key>KOR</key>
+		<string>오른쪽으로 밀기</string>
+		<key>ENG</key>
+		<string>Swipe to right</string>
+		<key>CHN</key>
+		<string>向右划</string>
+	</dict>
+	<key>위쪽으로 밀기</key>
+	<dict>
+		<key>KOR</key>
+		<string>위쪽으로 밀기</string>
+		<key>ENG</key>
+		<string>Swipe to up</string>
+		<key>CHN</key>
+		<string>向上划</string>
+	</dict>
+	<key>아래쪽으로 밀기</key>
+	<dict>
+		<key>KOR</key>
+		<string>아래쪽으로 밀기</string>
+		<key>ENG</key>
+		<string>Swipe to down</string>
+		<key>CHN</key>
+		<string>向下划</string>
+	</dict>
+	<key>랜덤 파일 재생</key>
+	<dict>
+		<key>KOR</key>
+		<string>랜덤 파일 재생</string>
+		<key>ENG</key>
+		<string>Play ramdom file</string>
+		<key>CHN</key>
+		<string>随机播放</string>
+	</dict>
+	<key>다음 파일 재생</key>
+	<dict>
+		<key>KOR</key>
+		<string>다음 파일 재생</string>
+		<key>ENG</key>
+		<string>Play next file</string>
+		<key>CHN</key>
+		<string>播放下一个文件</string>
+	</dict>
+	<key>같은 파일 반복재생</key>
+	<dict>
+		<key>KOR</key>
+		<string>같은 파일 반복재생</string>
+		<key>ENG</key>
+		<string>Repeat same file</string>
+		<key>CHN</key>
+		<string>重复播放</string>
+	</dict>
+	<key>재생 전 대기시간</key>
+	<dict>
+		<key>KOR</key>
+		<string>재생 전 대기시간</string>
+		<key>ENG</key>
+		<string>Waiting before play</string>
+		<key>CHN</key>
+		<string>播放前等待</string>
+	</dict>
+	<key>대기없이 바로재생</key>
+	<dict>
+		<key>KOR</key>
+		<string>대기없이 바로재생</string>
+		<key>ENG</key>
+		<string>Play without waiting</string>
+		<key>CHN</key>
+		<string>跳过开头</string>
+	</dict>
+	<key>다운로드</key>
+	<dict>
+		<key>KOR</key>
+		<string>다운로드</string>
+		<key>ENG</key>
+		<string>DOWNLOAD</string>
+		<key>CHN</key>
+		<string>下载</string>
+	</dict>
+	<key>다운로드 진행중</key>
+	<dict>
+		<key>KOR</key>
+		<string>다운로드 진행중</string>
+		<key>ENG</key>
+		<string>Wait please</string>
+		<key>CHN</key>
+		<string>请等待</string>
+	</dict>
+	<key>이미 다운로드 중인 파일이 있습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>이미 다운로드 중인 파일이 있습니다\n기다려주세요</string>
+		<key>ENG</key>
+		<string>until the downloading is complete</string>
+		<key>CHN</key>
+		<string>下载未完成</string>
+	</dict>
+	<key>문장인식</key>
+	<dict>
+		<key>KOR</key>
+		<string>문장인식</string>
+		<key>ENG</key>
+		<string>SENTENCE ANALYZING</string>
+		<key>CHN</key>
+		<string>句子分析</string>
+	</dict>
+	<key>문장인식 최소길이</key>
+	<dict>
+		<key>KOR</key>
+		<string>문장인식 최소길이</string>
+		<key>ENG</key>
+		<string>Auto find interval</string>
+		<key>CHN</key>
+		<string>自动断句</string>
+	</dict>
+	<key>그래프를 새로고침 합니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>그래프를 새로고침 합니다</string>
+		<key>ENG</key>
+		<string>MAKE GRAPH REFRESH</string>
+		<key>CHN</key>
+		<string>刷新图片</string>
+	</dict>
+	<key>자막 지원</key>
+	<dict>
+		<key>KOR</key>
+		<string>자막 지원</string>
+		<key>ENG</key>
+		<string>Subtitle support (.SRT)</string>
+		<key>CHN</key>
+		<string>字幕支持 (.SRT)</string>
+	</dict>
+	<key>한 문장의 최소 시간 길이</key>
+	<dict>
+		<key>KOR</key>
+		<string>한 문장의 최소길이</string>
+		<key>ENG</key>
+		<string>Auto find interval</string>
+		<key>CHN</key>
+		<string>自动断句</string>
+	</dict>
+	<key>재생 속도</key>
+	<dict>
+		<key>KOR</key>
+		<string>재생 속도</string>
+		<key>ENG</key>
+		<string>Play speed</string>
+		<key>CHN</key>
+		<string>播放速度</string>
+	</dict>
+	<key>문장 재생 횟수</key>
+	<dict>
+		<key>KOR</key>
+		<string>문장 재생 횟수</string>
+		<key>ENG</key>
+		<string>Auto repeat count</string>
+		<key>CHN</key>
+		<string>重复次数</string>
+	</dict>
+	<key>무한반복</key>
+	<dict>
+		<key>KOR</key>
+		<string>무한반복</string>
+		<key>ENG</key>
+		<string>Infinite</string>
+		<key>CHN</key>
+		<string>无限重复</string>
+	</dict>
+	<key>반복없음</key>
+	<dict>
+		<key>KOR</key>
+		<string>반복없음</string>
+		<key>ENG</key>
+		<string>No repeat</string>
+		<key>CHN</key>
+		<string>不重复</string>
+	</dict>
+	<key>편집권한 없음</key>
+	<dict>
+		<key>KOR</key>
+		<string>편집권한 없음</string>
+		<key>ENG</key>
+		<string>No authority</string>
+		<key>CHN</key>
+		<string>No authority</string>
+	</dict>
+	<key>스크립트가 없습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>스크립트 파일을 발견하지 못했습니다.\n\n오디오 파일과 같은 이름의 텍스트 파일이 존재한다면 화면에 출력됩니다.</string>
+		<key>ENG</key>
+		<string>There is no script for this audio file.\n\nIf the text file that has same name is found, the content will be shown on the screen.</string>
+		<key>CHN</key>
+		<string>There is no script for this audio file.\n\nIf the text file that has same name is found, the content will be shown on the screen.</string>
+	</dict>
+	<key>초</key>
+	<dict>
+		<key>KOR</key>
+		<string>초</string>
+		<key>ENG</key>
+		<string>Sec</string>
+		<key>CHN</key>
+		<string>秒</string>
+	</dict>
+	<key>회</key>
+	<dict>
+		<key>KOR</key>
+		<string>회</string>
+		<key>ENG</key>
+		<string>Times</string>
+		<key>CHN</key>
+		<string>次数</string>
+	</dict>
+	<key>월</key>
+	<dict>
+		<key>KOR</key>
+		<string>월</string>
+		<key>ENG</key>
+		<string>Mon</string>
+		<key>CHN</key>
+		<string>周一</string>
+	</dict>
+	<key>화</key>
+	<dict>
+		<key>KOR</key>
+		<string>화</string>
+		<key>ENG</key>
+		<string>Tue</string>
+		<key>CHN</key>
+		<string>周二</string>
+	</dict>
+	<key>수</key>
+	<dict>
+		<key>KOR</key>
+		<string>수</string>
+		<key>ENG</key>
+		<string>Wed</string>
+		<key>CHN</key>
+		<string>周三</string>
+	</dict>
+	<key>목</key>
+	<dict>
+		<key>KOR</key>
+		<string>목</string>
+		<key>ENG</key>
+		<string>Thr</string>
+		<key>CHN</key>
+		<string>周四</string>
+	</dict>
+	<key>금</key>
+	<dict>
+		<key>KOR</key>
+		<string>금</string>
+		<key>ENG</key>
+		<string>Fri</string>
+		<key>CHN</key>
+		<string>周五</string>
+	</dict>
+	<key>토</key>
+	<dict>
+		<key>KOR</key>
+		<string>토</string>
+		<key>ENG</key>
+		<string>Sat</string>
+		<key>CHN</key>
+		<string>周六</string>
+	</dict>
+	<key>일</key>
+	<dict>
+		<key>KOR</key>
+		<string>일</string>
+		<key>ENG</key>
+		<string>Sun</string>
+		<key>CHN</key>
+		<string>周日</string>
+	</dict>
+	<key>선택됨</key>
+	<dict>
+		<key>KOR</key>
+		<string>선택된 항목</string>
+		<key>ENG</key>
+		<string>SELECTED ITEM(S)</string>
+		<key>CHN</key>
+		<string>已选项</string>
+	</dict>
+	<key>삭제</key>
+	<dict>
+		<key>KOR</key>
+		<string>삭제</string>
+		<key>ENG</key>
+		<string>DELETE</string>
+		<key>CHN</key>
+		<string>删除</string>
+	</dict>
+	<key>뒤로</key>
+	<dict>
+		<key>KOR</key>
+		<string>뒤로</string>
+		<key>ENG</key>
+		<string>Back</string>
+		<key>CHN</key>
+		<string>返回</string>
+	</dict>
+	<key>취소</key>
+	<dict>
+		<key>KOR</key>
+		<string>취소</string>
+		<key>ENG</key>
+		<string>Cancel</string>
+		<key>CHN</key>
+		<string>取消</string>
+	</dict>
+	<key>확인</key>
+	<dict>
+		<key>KOR</key>
+		<string>확인</string>
+		<key>ENG</key>
+		<string>Confirm</string>
+		<key>CHN</key>
+		<string>确认</string>
+	</dict>
+	<key>새로운 폴더</key>
+	<dict>
+		<key>KOR</key>
+		<string>새로운 폴더</string>
+		<key>ENG</key>
+		<string>Create a new folder</string>
+		<key>CHN</key>
+		<string>创建新文件夹</string>
+	</dict>
+	<key>폴더 이름을 입력하세요</key>
+	<dict>
+		<key>KOR</key>
+		<string>폴더 이름을 입력하세요</string>
+		<key>ENG</key>
+		<string>Input new folder name</string>
+		<key>CHN</key>
+		<string>输入新文件夹名称</string>
+	</dict>
+	<key>파일 이름을 입력하세요</key>
+	<dict>
+		<key>KOR</key>
+		<string>파일 이름을 입력하세요</string>
+		<key>ENG</key>
+		<string>Input new file name</string>
+		<key>CHN</key>
+		<string>Input new file name</string>
+	</dict>
+	<key>오류</key>
+	<dict>
+		<key>KOR</key>
+		<string>오류</string>
+		<key>ENG</key>
+		<string>ERROR</string>
+		<key>CHN</key>
+		<string>错误</string>
+	</dict>
+	<key>다른 이름을 사용하세요</key>
+	<dict>
+		<key>KOR</key>
+		<string>다른 이름을 사용하세요</string>
+		<key>ENG</key>
+		<string>Please use different name</string>
+		<key>CHN</key>
+		<string>请使用不同名称</string>
+	</dict>
+	<key>이미 존재하는 이름입니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>이미 존재하는 이름입니다</string>
+		<key>ENG</key>
+		<string>The file name is already exist</string>
+		<key>CHN</key>
+		<string>文件名已存在</string>
+	</dict>
+	<key>저장 할 녹음파일이 없습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>저장 할 녹음파일이 없습니다</string>
+		<key>ENG</key>
+		<string>No recording data to save</string>
+		<key>CHN</key>
+		<string>No recording data to save</string>
+	</dict>
+	<key>이미 저장된 파일입니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>이미 저장된 파일입니다</string>
+		<key>ENG</key>
+		<string>The recording is already saved</string>
+		<key>CHN</key>
+		<string>The recording is already saved</string>
+	</dict>
+	<key>녹음파일이 저장되었습니다</key>
+	<dict>
+		<key>KOR</key>
+		<string>녹음파일이 저장되었습니다</string>
+		<key>ENG</key>
+		<string>The recording is saved</string>
+		<key>CHN</key>
+		<string>The recording is saved</string>
+	</dict>
+	<key>녹음파일 저장</key>
+	<dict>
+		<key>KOR</key>
+		<string>녹음파일 저장</string>
+		<key>ENG</key>
+		<string>Save the recording</string>
+		<key>CHN</key>
+		<string>Save the recording</string>
+	</dict>
+	<key>편집</key>
+	<dict>
+		<key>KOR</key>
+		<string>편집</string>
+		<key>ENG</key>
+		<string>EDIT</string>
+		<key>CHN</key>
+		<string>EDIT</string>
+	</dict>
+	<key>완료</key>
+	<dict>
+		<key>KOR</key>
+		<string>완료</string>
+		<key>ENG</key>
+		<string>Done</string>
+		<key>CHN</key>
+		<string>Done</string>
+	</dict>
+	<key>성공</key>
+	<dict>
+		<key>KOR</key>
+		<string>완료</string>
+		<key>ENG</key>
+		<string>SUCCESS</string>
+		<key>CHN</key>
+		<string>SUCCESS</string>
+	</dict>
+	<key>이름 변경</key>
+	<dict>
+		<key>KOR</key>
+		<string>이름 변경</string>
+		<key>ENG</key>
+		<string>RENAME</string>
+		<key>CHN</key>
+		<string>重新命名</string>
+	</dict>
+	<key>변경할 이름을 입력하세요</key>
+	<dict>
+		<key>KOR</key>
+		<string>변경할 이름을 입력하세요</string>
+		<key>ENG</key>
+		<string>Input new name for changing</string>
+		<key>CHN</key>
+		<string>输入新名称</string>
+	</dict>
+</dict>
+</plist>

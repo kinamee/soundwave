@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SpeakAgain File Uploader</title>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script src="js/init.js"></script>
+<noscript>
+<link rel="stylesheet" href="css/skel-noscript.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-noscript.css">
+</noscript>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/ie8.css">
+<![endif]-->
+
+<script language="JavaScript">
+
+	var attached = false;
+
+	function getFileName(pFilePath)
+	{
+	    var startIndex = (pFilePath.indexOf('\\') >= 0 ? pFilePath.lastIndexOf('\\') : pFilePath.lastIndexOf('/'));
+		var filename = pFilePath.substring(startIndex);
+		if (filename.indexOf('\\') === 0 || filename.indexOf('/') === 0) 
+		{
+        	filename = filename.substring(1);
+		}
+	    return filename;
+    }
+
+    function file1_browse()
+    {
+        document.form.file1.click();        
+    }
+    function file1_selected()
+    {    	
+        document.getElementById("text1").text = getFileName( document.getElementById("file1").value );
+        window.attached = true;
+    }
+    function file2_browse()
+    {
+        document.form.file2.click();
+    }
+    function file2_selected()
+    {
+        document.getElementById("text2").text = getFileName( document.getElementById("file2").value ); 
+        window.attached = true;        
+    }    
+    function file_submit()
+    {
+    	if (window.attached == false)
+    	{
+	    	alert("Please select a file");
+	    	return;
+    	}
+        document.form.submit();
+    }
+</script>
+
+</head>
+
+<body class="homepage">
+<form name="form" action="upload.html" method="post" enctype="multipart/form-data" accept-charset="utf-8">
+<div id="header">
+  <div class="inner">
+    <header>
+      <h1><a href="#" id="logo">SpeakAgain</a></h1>
+      <hr>
+      <span class="byline">.mp3, .mp4, m4a, .mov, .txt, .srt</span> 
+			
+        	<table align="center" width="400">
+        	<tr>
+        		<td align="center" height="10"></td>
+        	</tr>
+        	<tr>
+        		<td align="center" onclick="javascript: file1_browse()"><a id="text1">Select a file #1</a></td>
+        	</tr>
+        	<tr>
+	        	<td align="center" onclick="javascript: file2_browse()"><a id="text2">Select a file #2</a></td>
+        	</tr>
+        	</table>        	
+        	
+        	<a href="javascript: file_submit()" class="button circled scrolly">Upload</a>
+    </header>
+    <!--<footer> <a href="javascript: file_submit()" class="button circled scrolly">Upload</a> </footer>-->
+  </div>
+  <nav id="nav">
+    <ul>
+      <li>Upload your own media files</li>
+    </ul>
+  </nav>
+</div>
+	<input type="file" id="file1" name="upload1" onchange="javascript: file1_selected()">			
+	<input type="file" id="file2" name="upload2" onchange="javascript: file2_selected()">
+</form>   
+</body>
+</html>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SECTION_PLAYER_OPTION</key>
+	<dict>
+		<key>HEADERS</key>
+		<dict>
+			<key>HEADER_KOR</key>
+			<string>플레이어 옵션</string>
+			<key>HEADER_ENG</key>
+			<string>PLAYER OPTION</string>
+			<key>HEADER_CHN</key>
+			<string></string>
+		</dict>
+		<key>ROWS</key>
+		<dict>
+			<key>ROW_0</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>재생 끝난 후 액션</string>
+				<key>CAPTION_ENG</key>
+				<string>AFTER END OF PLAYING</string>
+				<key>CAPTION_CHN</key>
+				<string></string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_REPEAT_TYPE</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_2</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>SECTION_GESTURE</key>
+	<dict>
+		<key>HEADERS</key>
+		<dict>
+			<key>HEADER_KOR</key>
+			<string>제스쳐</string>
+			<key>HEADER_ENG</key>
+			<string>Guesture</string>
+			<key>HEADER_CHN</key>
+			<string>Guesture</string>
+		</dict>
+		<key>ROWS</key>
+		<dict>
+			<key>ROW_0</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>싱글 탭</string>
+				<key>CAPTION_ENG</key>
+				<string>Single tap</string>
+				<key>CAPTION_CHN</key>
+				<string>单击</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_5</string>
+			</dict>
+			<key>ROW_1</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>더블 탭</string>
+				<key>CAPTION_ENG</key>
+				<string>Double tap</string>
+				<key>CAPTION_CHN</key>
+				<string>双击</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_1</string>
+			</dict>
+			<key>ROW_2</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>왼쪽으로 밀기</string>
+				<key>CAPTION_ENG</key>
+				<string>Swipe to left</string>
+				<key>CAPTION_CHN</key>
+				<string>向左划</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_3</string>
+			</dict>
+			<key>ROW_3</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>오른쪽으로 밀기</string>
+				<key>CAPTION_ENG</key>
+				<string>Swipe to right</string>
+				<key>CAPTION_CHN</key>
+				<string>向右划</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_2</string>
+			</dict>
+			<key>ROW_4</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>위쪽으로 밀기</string>
+				<key>CAPTION_ENG</key>
+				<string>Swipe to up</string>
+				<key>CAPTION_CHN</key>
+				<string>向上划</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_0</string>
+			</dict>
+			<key>ROW_5</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>아래쪽으로 밀기</string>
+				<key>CAPTION_ENG</key>
+				<string>Swipe to down</string>
+				<key>CAPTION_CHN</key>
+				<string>向下划</string>
+				<key>SUB_SECTION_NAME</key>
+				<string>SECTION_GESTURE_ACTION</string>
+				<key>SUB_SELECTED_ROW</key>
+				<string>ROW_6</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>SECTION_GESTURE_ACTION</key>
+	<dict>
+		<key>HEADERS</key>
+		<dict>
+			<key>HEADER_KOR</key>
+			<string>제스쳐 액션 지정</string>
+			<key>HEADER_ENG</key>
+			<string>Gesture action</string>
+			<key>HEADER_CHN</key>
+			<string>Gesture action</string>
+		</dict>
+		<key>ROWS</key>
+		<dict>
+			<key>ROW_0</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>없음</string>
+				<key>CAPTION_ENG</key>
+				<string>None</string>
+				<key>CAPTION_CHN</key>
+				<string>None</string>
+			</dict>
+			<key>ROW_1</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>재생 또는 멈춤</string>
+				<key>CAPTION_ENG</key>
+				<string>Play or pause</string>
+				<key>CAPTION_CHN</key>
+				<string>Play or pause</string>
+			</dict>
+			<key>ROW_2</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>이전 문장으로 이동</string>
+				<key>CAPTION_ENG</key>
+				<string>Move to prev</string>
+				<key>CAPTION_CHN</key>
+				<string>Move to prev</string>
+			</dict>
+			<key>ROW_3</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>다음 문장으로 이동</string>
+				<key>CAPTION_ENG</key>
+				<string>Move to next</string>
+				<key>CAPTION_CHN</key>
+				<string>Move to next</string>
+			</dict>
+			<key>ROW_4</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>다음 문장까지 통과</string>
+				<key>CAPTION_ENG</key>
+				<string>Pass to next</string>
+				<key>CAPTION_CHN</key>
+				<string>Pass to next</string>
+			</dict>
+			<key>ROW_5</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>메뉴숨김 또는 보임</string>
+				<key>CAPTION_ENG</key>
+				<string>Menu show or hide</string>
+				<key>CAPTION_CHN</key>
+				<string>Menu show or hide</string>
+			</dict>
+			<key>ROW_6</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>파일목록으로 이동</string>
+				<key>CAPTION_ENG</key>
+				<string>Back to list</string>
+				<key>CAPTION_CHN</key>
+				<string>Back to list</string>
+			</dict>
+			<key>ROW_7</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>같은 문장 다시 재생</string>
+				<key>CAPTION_ENG</key>
+				<string>Repeat again</string>
+				<key>CAPTION_CHN</key>
+				<string>Repeat again</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>SECTION_REPEAT_TYPE</key>
+	<dict>
+		<key>HEADERS</key>
+		<dict>
+			<key>HEADER_KOR</key>
+			<string>재생 방식 지정</string>
+			<key>HEADER_ENG</key>
+			<string>Action after end of playing</string>
+			<key>HEADER_CHN</key>
+			<string></string>
+		</dict>
+		<key>ROWS</key>
+		<dict>
+			<key>ROW_0</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>한 파일 재생 후 멈춤</string>
+				<key>CAPTION_ENG</key>
+				<string>STOP</string>
+				<key>CAPTION_CHN</key>
+				<string></string>
+			</dict>
+			<key>ROW_1</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>같은 파일 무한 재생</string>
+				<key>CAPTION_ENG</key>
+				<string>PLAY SAME ITEM</string>
+				<key>CAPTION_CHN</key>
+				<string></string>
+			</dict>
+			<key>ROW_2</key>
+			<dict>
+				<key>CAPTION_KOR</key>
+				<string>다음 파일 재생</string>
+				<key>CAPTION_ENG</key>
+				<string>PLAY NEXT ITEM IN SAME FOLDER</string>
+				<key>CAPTION_CHN</key>
+				<string></string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MESSAGE_TRANSLATE</key>
+	<dict>
+		<key>환경설정</key>
+		<dict>
+			<key>KOR</key>
+			<string>환경설정</string>
+			<key>ENG</key>
+			<string>Setting</string>
+			<key>CHN</key>
+			<string>Setting</string>
+		</dict>
+		<key>프로그램 정보</key>
+		<dict>
+			<key>KOR</key>
+			<string>Smart Repeater Ver1.8</string>
+			<key>ENG</key>
+			<string>Smart Repeater Ver1.8</string>
+			<key>CHN</key>
+			<string>Smart Repeater Ver1.8</string>
+		</dict>
+		<key>정보</key>
+		<dict>
+			<key>KOR</key>
+			<string>정보</string>
+			<key>ENG</key>
+			<string>Information</string>
+			<key>CHN</key>
+			<string>Information</string>
+		</dict>
+		<key>자동반복</key>
+		<dict>
+			<key>KOR</key>
+			<string>자동반복</string>
+			<key>ENG</key>
+			<string>Smart Repeat</string>
+			<key>CHN</key>
+			<string>Smart Repeat</string>
+		</dict>
+		<key>자막지원</key>
+		<dict>
+			<key>KOR</key>
+			<string>자막지원</string>
+			<key>ENG</key>
+			<string>Subtitle</string>
+			<key>CHN</key>
+			<string>Subtitle</string>
+		</dict>
+		<key>자막 (SRT) 지원</key>
+		<dict>
+			<key>KOR</key>
+			<string>자막(.SRT) 지원</string>
+			<key>ENG</key>
+			<string>Subtitle support (.SRT File)</string>
+			<key>CHN</key>
+			<string>Subtitle support (.SRT File)</string>
+		</dict>
+		<key>제스쳐</key>
+		<dict>
+			<key>KOR</key>
+			<string>제스쳐</string>
+			<key>ENG</key>
+			<string>Guesture</string>
+			<key>CHN</key>
+			<string>Guesture</string>
+		</dict>
+		<key>싱글 탭</key>
+		<dict>
+			<key>KOR</key>
+			<string>싱글 탭</string>
+			<key>ENG</key>
+			<string>Single Tap</string>
+			<key>CHN</key>
+			<string>Single Tap</string>
+		</dict>
+		<key>더블 탭</key>
+		<dict>
+			<key>KOR</key>
+			<string>더블 탭</string>
+			<key>ENG</key>
+			<string>Double Tap</string>
+			<key>CHN</key>
+			<string>Double Tap</string>
+		</dict>
+		<key>왼쪽으로 밀기</key>
+		<dict>
+			<key>KOR</key>
+			<string>왼쪽으로 밀기</string>
+			<key>ENG</key>
+			<string>Swipe to left</string>
+			<key>CHN</key>
+			<string>Swipe to left</string>
+		</dict>
+		<key>오른쪽으로 밀기</key>
+		<dict>
+			<key>KOR</key>
+			<string>오른쪽으로 밀기</string>
+			<key>ENG</key>
+			<string>Swipe to right</string>
+			<key>CHN</key>
+			<string>Swipe to right</string>
+		</dict>
+		<key>위쪽으로 밀기</key>
+		<dict>
+			<key>KOR</key>
+			<string>위쪽으로 밀기</string>
+			<key>ENG</key>
+			<string>Swipe to up</string>
+			<key>CHN</key>
+			<string>Swipe to up</string>
+		</dict>
+		<key>아래쪽으로 밀기</key>
+		<dict>
+			<key>KOR</key>
+			<string>아래쪽으로 밀기</string>
+			<key>ENG</key>
+			<string>Swipe to down</string>
+			<key>CHN</key>
+			<string>Swipe to down</string>
+		</dict>
+		<key>재생 끝난 후 </key>
+		<dict>
+			<key>KOR</key>
+			<string>재생 끝난 후</string>
+			<key>ENG</key>
+			<string>AFTER END OF PLAY</string>
+			<key>CHN</key>
+			<string>AFTER END OF PLAY</string>
+		</dict>
+		<key>재생 전 대기시간</key>
+		<dict>
+			<key>KOR</key>
+			<string>재생 전 대기시간</string>
+			<key>ENG</key>
+			<string>Waiting before playing</string>
+			<key>CHN</key>
+			<string>Waiting before playing</string>
+		</dict>
+		<key>대기없이 바로재생</key>
+		<dict>
+			<key>KOR</key>
+			<string>대기없이 바로재생</string>
+			<key>ENG</key>
+			<string>Play without waiting</string>
+			<key>CHN</key>
+			<string>Play without waiting</string>
+		</dict>
+		<key>다운로드</key>
+		<dict>
+			<key>KOR</key>
+			<string>다운로드</string>
+			<key>ENG</key>
+			<string>DOWNLOAD</string>
+			<key>CHN</key>
+			<string>DOWNLOAD</string>
+		</dict>
+		<key>문장인식</key>
+		<dict>
+			<key>KOR</key>
+			<string>문장인식</string>
+			<key>ENG</key>
+			<string>SENTENCE ANALYZING</string>
+			<key>CHN</key>
+			<string>SENTENCE ANALYZING</string>
+		</dict>
+		<key>그래프를 새로고침 합니다</key>
+		<dict>
+			<key>KOR</key>
+			<string>그래프를 새로고침 합니다</string>
+			<key>ENG</key>
+			<string>MAKE GRAPH REFRESH</string>
+			<key>CHN</key>
+			<string>MAKE GRAPH REFRESH</string>
+		</dict>
+		<key>자막 지원</key>
+		<dict>
+			<key>KOR</key>
+			<string>자막 지원</string>
+			<key>ENG</key>
+			<string>CAPTION (.SMI, .SRT)</string>
+			<key>CHN</key>
+			<string>CAPTION (.SMI, .SRT)</string>
+		</dict>
+		<key>한 문장의 최소 시간 길이</key>
+		<dict>
+			<key>KOR</key>
+			<string>한 문장의 최소길이</string>
+			<key>ENG</key>
+			<string>Minimum sentence length</string>
+			<key>CHN</key>
+			<string>Minimum sentence length</string>
+		</dict>
+		<key>재생 속도</key>
+		<dict>
+			<key>KOR</key>
+			<string>재생 속도</string>
+			<key>ENG</key>
+			<string>PLAY SPEED</string>
+			<key>CHN</key>
+			<string>PLAY SPEED</string>
+		</dict>
+		<key>문장 재생 횟수</key>
+		<dict>
+			<key>KOR</key>
+			<string>문장 재생 횟수</string>
+			<key>ENG</key>
+			<string>Sentence play count</string>
+			<key>CHN</key>
+			<string>Sentence play count</string>
+		</dict>
+		<key>무한반복</key>
+		<dict>
+			<key>KOR</key>
+			<string>무한반복</string>
+			<key>ENG</key>
+			<string>Infinite</string>
+			<key>CHN</key>
+			<string>Infinite</string>
+		</dict>
+		<key>반복없음</key>
+		<dict>
+			<key>KOR</key>
+			<string>반복없음</string>
+			<key>ENG</key>
+			<string>No repeat</string>
+			<key>CHN</key>
+			<string>No repeat</string>
+		</dict>
+		<key>편집권한 없음</key>
+		<dict>
+			<key>KOR</key>
+			<string>편집권한 없음</string>
+			<key>ENG</key>
+			<string>No authority</string>
+			<key>CHN</key>
+			<string>No authority</string>
+		</dict>
+		<key>애플사는 Inbox 폴더의 편집을 불허합니다</key>
+		<dict>
+			<key>KOR</key>
+			<string>애플사는 Inbox 폴더의 편집을 불허합니다</string>
+			<key>ENG</key>
+			<string>Apple prohibits editing this folder</string>
+			<key>CHN</key>
+			<string>Apple prohibits editing this folder</string>
+		</dict>
+		<key>초</key>
+		<dict>
+			<key>KOR</key>
+			<string>초</string>
+			<key>ENG</key>
+			<string>Sec</string>
+			<key>CHN</key>
+			<string>Sec</string>
+		</dict>
+		<key>회</key>
+		<dict>
+			<key>KOR</key>
+			<string>회</string>
+			<key>ENG</key>
+			<string>Times</string>
+			<key>CHN</key>
+			<string>Times</string>
+		</dict>
+		<key>월</key>
+		<dict>
+			<key>KOR</key>
+			<string>월</string>
+			<key>ENG</key>
+			<string>Mon</string>
+			<key>CHN</key>
+			<string>Mon</string>
+		</dict>
+		<key>화</key>
+		<dict>
+			<key>KOR</key>
+			<string>화</string>
+			<key>ENG</key>
+			<string>Tue</string>
+			<key>CHN</key>
+			<string>Tue</string>
+		</dict>
+		<key>수</key>
+		<dict>
+			<key>KOR</key>
+			<string>수</string>
+			<key>ENG</key>
+			<string>Wed</string>
+			<key>CHN</key>
+			<string>Wed</string>
+		</dict>
+		<key>목</key>
+		<dict>
+			<key>KOR</key>
+			<string>목</string>
+			<key>ENG</key>
+			<string>Thr</string>
+			<key>CHN</key>
+			<string>Thr</string>
+		</dict>
+		<key>금</key>
+		<dict>
+			<key>KOR</key>
+			<string>금</string>
+			<key>ENG</key>
+			<string>Fri</string>
+			<key>CHN</key>
+			<string>Fri</string>
+		</dict>
+		<key>토</key>
+		<dict>
+			<key>KOR</key>
+			<string>토</string>
+			<key>ENG</key>
+			<string>Sat</string>
+			<key>CHN</key>
+			<string>Sat</string>
+		</dict>
+		<key>일</key>
+		<dict>
+			<key>KOR</key>
+			<string>일</string>
+			<key>ENG</key>
+			<string>Sun</string>
+			<key>CHN</key>
+			<string>Sun</string>
+		</dict>
+		<key>선택됨</key>
+		<dict>
+			<key>KOR</key>
+			<string>선택된 항목</string>
+			<key>ENG</key>
+			<string>SELECTED ITEM(S)</string>
+			<key>CHN</key>
+			<string>SELECTED ITEM(S)</string>
+		</dict>
+		<key>삭제</key>
+		<dict>
+			<key>KOR</key>
+			<string>삭제</string>
+			<key>ENG</key>
+			<string>DELETE</string>
+			<key>CHN</key>
+			<string>DELETE</string>
+		</dict>
+		<key>뒤로</key>
+		<dict>
+			<key>KOR</key>
+			<string>뒤로</string>
+			<key>ENG</key>
+			<string>BACK</string>
+			<key>CHN</key>
+			<string>BACK</string>
+		</dict>
+		<key>취소</key>
+		<dict>
+			<key>KOR</key>
+			<string>취소</string>
+			<key>ENG</key>
+			<string>CANCEL</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>확인</key>
+		<dict>
+			<key>KOR</key>
+			<string>확인</string>
+			<key>ENG</key>
+			<string>CONFIRM</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>새로운 폴더</key>
+		<dict>
+			<key>KOR</key>
+			<string>새로운 폴더</string>
+			<key>ENG</key>
+			<string>NEW FOLDER</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>폴더 이름을 입력하세요</key>
+		<dict>
+			<key>KOR</key>
+			<string>폴더 이름을 입력하세요</string>
+			<key>ENG</key>
+			<string>INPUT NEW FOLDER NAME</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>오류</key>
+		<dict>
+			<key>KOR</key>
+			<string>오류</string>
+			<key>ENG</key>
+			<string>ERROR</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>다른 이름을 사용하세요</key>
+		<dict>
+			<key>KOR</key>
+			<string>다른 이름을 사용하세요</string>
+			<key>ENG</key>
+			<string>PLEASE USE A DIFFERENT NAME</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>편집</key>
+		<dict>
+			<key>KOR</key>
+			<string>편집</string>
+			<key>ENG</key>
+			<string>EDIT</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>완료</key>
+		<dict>
+			<key>KOR</key>
+			<string>완료</string>
+			<key>ENG</key>
+			<string>DONE</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>이름 변경</key>
+		<dict>
+			<key>KOR</key>
+			<string>이름 변경</string>
+			<key>ENG</key>
+			<string>RENAME</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+		<key>변경할 이름을 입력하세요</key>
+		<dict>
+			<key>KOR</key>
+			<string>변경할 이름을 입력하세요</string>
+			<key>ENG</key>
+			<string>INPUT NEW NAME TO CHANGE</string>
+			<key>CHN</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>LATEST_MOVIE</key>
+	<dict>
+		<key>FILE_PATH</key>
+		<string></string>
+		<key>FILE_SIZE</key>
+		<string></string>
+		<key>CURRENT_TIME</key>
+		<string></string>
+		<key>TOTAL_TIME</key>
+		<string></string>
+	</dict>
+	<key>CAPTION_ONOFF</key>
+	<dict>
+		<key>DESC</key>
+		<string>.SMI, .SRT SUPPORT ON-OFF</string>
+		<key>VALUE</key>
+		<string>ON</string>
+	</dict>
+	<key>SENTENCE_REPEAT_COUNT</key>
+	<dict>
+		<key>DESC</key>
+		<string>문장 재생 횟수</string>
+		<key>IS_REPEAT</key>
+		<string>YES</string>
+		<key>IS_INFINITE</key>
+		<string>NO</string>
+		<key>VALUE</key>
+		<string>10</string>
+	</dict>
+	<key>MINIMUM_SENTENCE_SECOND</key>
+	<dict>
+		<key>DESC</key>
+		<string>한 문장의 최소길이</string>
+		<key>VALUE</key>
+		<string>3.0</string>
+	</dict>
+	<key>WAITING_BEFORE_PLAYING</key>
+	<dict>
+		<key>DESC</key>
+		<string>재생 전 대기시간</string>
+		<key>VALUE</key>
+		<string>0.5</string>
+	</dict>
+	<key>AFTER_PLAYING_END</key>
+	<dict>
+		<key>DESC</key>
+		<string>END, NEXT, REPEAT</string>
+		<key>VALUE</key>
+		<string>REPEAT</string>
+	</dict>
+</dict>
+</plist>
